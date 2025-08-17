@@ -22,14 +22,10 @@ export default function Navigation() {
                 Home Page
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/catalog" className={css.link}>
-                Catalog
-              </NavLink>
-            </li>
+
           </ul>
         </nav>
-        <div className={css.hidden}>hidden</div>
+
       </div>
     </section>
   );
